@@ -1,5 +1,7 @@
 package operadores;
 
+import java.util.Scanner;
+
 public class Operadores {
 	
 	public static void main(String[] args) {
@@ -99,6 +101,11 @@ public class Operadores {
 		
 		int resultado = (edad<= 18)? valor1 : valor2;
 		System.out.println(resultado);
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Escribe un numero: ");
+		int num = sc.nextInt();
+		
 	}
 
 }
